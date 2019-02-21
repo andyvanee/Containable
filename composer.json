@@ -1,0 +1,27 @@
+{
+    "name": "andyvanee/containable",
+    "description": "A small DI container",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "andyvanee",
+            "email": "1andyvanee@gmail.com"
+        }
+    ],
+    "scripts": {
+        "spec": "peridot spec"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "psr/container": "^1.0"
+    },
+    "require-dev": {
+        "peridot-php/peridot": "^1.19",
+        "peridot-php/leo": "^1.6"
+    }
+}
